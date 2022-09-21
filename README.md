@@ -9,4 +9,6 @@ rm /tmp/nodesource_setup.sh
 
 npm install -g npm
 npm install -g pm2
+
+pm2 startup
 ```
