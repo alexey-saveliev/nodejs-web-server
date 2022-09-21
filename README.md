@@ -1,4 +1,4 @@
-# nodejs-web-server
+# Deploy web server Nginx + NodeJS + PostgreSQL + Redis
 ## 1. Install latest Node JS LTS
 ```
 curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
