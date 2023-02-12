@@ -14,7 +14,7 @@ pm2 startup
 ```
 ## 2. Install latest Nginx
 ```
-apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring
+apt install -y curl gnupg2 ca-certificates lsb-release ubuntu-keyring
 curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \
     | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
 gpg --dry-run --quiet --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg
