@@ -27,7 +27,7 @@ http://nginx.org/packages/mainline/ubuntu `lsb_release -cs` nginx" \
 echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 900\n" \
     | sudo tee /etc/apt/preferences.d/99nginx
 apt update
-apt install -y nginx
+apt install -y nginx certbot python3-certbot-nginx
 ```
 ## 3. Install latest PostgreSQL
 ```
